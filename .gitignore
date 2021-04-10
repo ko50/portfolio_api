@@ -1,0 +1,5 @@
+# Environment vars config file
+.env
+
+# VSCode editor config files
+.vscode/
