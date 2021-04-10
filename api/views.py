@@ -33,16 +33,16 @@ class AboutMeListAPIView(generics.ListAPIView):
     serializer_class = AboutMeSerializer
 
 
-class SkillListAPIView(generics.ListAPIView):
+class SkillsListAPIView(generics.ListAPIView):
     queryset = Skill.objects.all()
     serializer_class = SkillSerializer
 
 
-class WorkListAPIView(generics.ListAPIView):
+class WorksListAPIView(generics.ListAPIView):
     queryset = Work.objects.all()
     serializer_class = WorkSerializer
 
 
-class ContactListAPIView(generics.ListAPIView):
+class ContactsListAPIView(generics.ListAPIView):
     queryset = Contact.objects.all()
     serializer_class = ContactSerializer
