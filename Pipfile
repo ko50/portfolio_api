@@ -10,6 +10,8 @@ autopep8 = "*"
 django-mysql = "*"
 pymysql = "*"
 python-dotenv = "*"
+django-cors-headers = "*"
+cryptography = "*"
 
 [dev-packages]
 
