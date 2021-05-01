@@ -18,7 +18,7 @@ class SkillSerializer(serializers.ModelSerializer):
 class WorkSerializer(serializers.ModelSerializer):
     class Meta:
         model = Work
-        fields = ('name', 'description', 'snapshot_path', 'link', 'tagas')
+        fields = ('name', 'description', 'snapshot_path', 'link', 'tags')
 
 
 class ContactSerializer(serializers.ModelSerializer):
