@@ -4,14 +4,14 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-django = "*"
-djangorestframework = "*"
-autopep8 = "*"
-django-mysql = "*"
-pymysql = "*"
-python-dotenv = "*"
-django-cors-headers = "*"
-cryptography = "*"
+django = "3.2"
+djangorestframework = "3.12.4"
+autopep8 = "1.5.7"
+django-mysql = "3.11.1"
+pymysql = "1.0.2"
+python-dotenv = "0.17.1"
+django-cors-headers = "3.7.0"
+cryptography = "3.4.7"
 
 [dev-packages]
 
