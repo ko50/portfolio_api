@@ -48,9 +48,10 @@ MIDDLEWARE = [
 ]
 
 # 許可するオリジン
-CORS_ORIGIN_WHITELIST = [
-    'http://localhost:8080',
-]
+# CORS_ORIGIN_WHITELIST = [
+#     'http://localhost:8080',
+# ]
+CORS_ALLOW_ALL_ORIGINS = True
 
 ROOT_URLCONF = 'portfolio_api.urls'
 
