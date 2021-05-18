@@ -3,3 +3,11 @@
 
 # VSCode editor config files
 .vscode/
+
+__pycache__/
+
+get-pip.py
+
+uwsgi.*
+uwsgi_params
+
