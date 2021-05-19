@@ -4,7 +4,8 @@
 # VSCode editor config files
 .vscode/
 
-__pycache__/
+*/__pycache__/
+*/*/__pycache__/
 
 get-pip.py
 
