@@ -12,3 +12,6 @@ class Work(models.Model):
         size=15,
         max_length=(15 * 16)
     )
+
+    def __str__(self):
+        return self.name

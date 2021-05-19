@@ -15,3 +15,6 @@ class Skill(models.Model):
     description = models.TextField()
     logo_path = models.CharField(max_length=128)
     skill_type = models.CharField(choices=SKILL_TYPE_SET, max_length=32)
+
+    def __str__(self):
+        return self.name
