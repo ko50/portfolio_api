@@ -11,7 +11,7 @@ class Skill(models.Model):
         (SKILL_TYPE_TOOL, 'Tools')
     )
 
-    name = models.CharField(max_length=8)
+    name = models.CharField(max_length=32)
     description = models.TextField()
-    logo_path = models.TextField()
+    logo_path = models.CharField(max_length=128)
     skill_type = models.CharField(choices=SKILL_TYPE_SET, max_length=32)
