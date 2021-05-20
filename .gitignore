@@ -12,3 +12,6 @@ get-pip.py
 uwsgi.*
 uwsgi_params
 
+images/*
+
+static/*

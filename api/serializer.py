@@ -12,16 +12,16 @@ class AboutMeSerializer(serializers.ModelSerializer):
 class SkillSerializer(serializers.ModelSerializer):
     class Meta:
         model = Skill
-        fields = ('name', 'description', 'logo_path', 'skill_type')
+        fields = ('name', 'description', 'skill_type', 'icon')
 
 
 class WorkSerializer(serializers.ModelSerializer):
     class Meta:
         model = Work
-        fields = ('name', 'description', 'snapshot_path', 'link', 'tags')
+        fields = ('name', 'description', 'screenshot', 'link', 'tags')
 
 
 class ContactSerializer(serializers.ModelSerializer):
     class Meta:
         model = Contact
-        fields = ('name', 'user_name', 'service_link', 'logo_path')
+        fields = ('name', 'user_name', 'service_link', 'logo')
