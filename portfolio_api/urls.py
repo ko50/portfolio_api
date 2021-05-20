@@ -10,5 +10,7 @@ urlpatterns = [
     path('api/v1/', include('api.urls', namespace='about_me')),
 ]
 
+urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+
 urlpatterns += staticfiles_urlpatterns()
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
