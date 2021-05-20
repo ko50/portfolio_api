@@ -12,6 +12,7 @@ pymysql = "1.0.2"
 python-dotenv = "0.17.1"
 django-cors-headers = "3.7.0"
 cryptography = "3.4.7"
+pillow = "8.2.0"
 
 [dev-packages]
 
