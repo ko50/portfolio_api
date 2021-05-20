@@ -5,7 +5,7 @@ from django_mysql.models import ListCharField
 class Work(models.Model):
     name = models.CharField(max_length=32)
     description = models.TextField()
-    screenshot = models.ImageField(upload_to='works/', null=True)
+    screenshot = models.FileField(upload_to='works/', null=True)
     link = models.CharField(max_length=256)
     tags = ListCharField(
         models.CharField(max_length=15),

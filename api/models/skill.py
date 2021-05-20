@@ -13,7 +13,7 @@ class Skill(models.Model):
 
     name = models.CharField(max_length=32)
     description = models.TextField()
-    icon = models.ImageField(upload_to='skills/', null=True)
+    icon = models.FileField(upload_to='skills/', null=True)
     skill_type = models.CharField(choices=SKILL_TYPE_SET, max_length=32)
 
     def __str__(self):
